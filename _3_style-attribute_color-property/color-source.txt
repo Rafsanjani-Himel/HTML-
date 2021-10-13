@@ -1,0 +1,4 @@
+for color choose we can use :
+
+1: pixie.exe
+2: htmlcolorcodes.com

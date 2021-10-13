@@ -1,0 +1,8 @@
+to know errors we use html validator.
+like:
+	1: validator.w3.org
+in this website we can add the file which we want to check.
+	>we must have to use lang="en" in body tag to declared that we are using english language.
+
+
+	>we also have to use <meta charset="UTF-8"> to declare which english language character we are going to be used.

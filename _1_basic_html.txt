@@ -1,0 +1,12 @@
+html stands for hyper text markup language.
+It is standard markup language for creating web pages.
+It describes the structure.
+html consists of a series of elements and elements tell the browser how to display the content.
+Tim Berners-Lee invented html in 1989 to share documents.
+
+
+ 	websites for learning
+	1.w3 schools
+	2.sololearn
+	3.MDN web doc
+	

@@ -1,0 +1,3 @@
+to add emoji and symbol :
+>> use the website w3 school.
+>also use unicode-table.com

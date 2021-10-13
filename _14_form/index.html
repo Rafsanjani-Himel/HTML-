@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> Form for taking user input</title>
+	<body>
+		<h2>Registration Form</h2>
+		
+		<form>
+
+		<fieldset>
+		
+		<legend style="text-align:center;">Personal Information</legend>
+		
+			<div>
+				<label for="fullName">FullName: </label>
+					<input type="text" name="fullName" id="fullName" placeholder="input your name here">
+			</div><br>
+			
+			<div>
+				<label for="phone">Phone: </label>
+					<input type="tel" name="phone" id="phone" placeholder="123-45-678" pattern="">
+			</div><br>
+			
+			<div>
+				<label for="email">Email: </label>
+					<input type="email" name="email" id="email" required placeholder="input email here">
+			</div><br>
+			
+			<div>
+				<label for="password">Password: <label>
+					<input type="password" name="password" id="password" min="4" max="8" placeholder="Password here">
+			</div><br>
+			
+			<div>
+				<label for="dateOfBirth">Date of Birth: <label>
+					<input type="date" name="dateOfBirth" id="dateOfBirth">
+			</div><br>
+			
+			<div>
+				<label for="file">File: <label>
+					<input type="file" name="file" id="file">
+			</div><br>
+			
+			<div>
+				<label for="gender">Gender: <label>
+					<input type="radio" name="gender" id="gender" value="male">Male
+					<input type="radio" name="gender" id="gender" value="female">Female
+			</div><br>
+			
+			<div>
+				<label for="religion">Religion: <label>
+					<input type="checkbox" name="religion" id="religion" value="muslim" checked>Muslim
+					<input type="checkbox" name="religion" id="religion" value="hindu">Hindu
+					<input type="checkbox" name="religion" id="religion" value="boddoh">Boddoh
+			</div><br>
+			
+			<div>
+				<label for="department">Department: <label>
+					<select name="department">
+						<option>CSE</option>
+						<option>EEE</option>			
+						<option>CIS</option>			
+						<option selected>Civil</option>			
+						<option>Architecture</option>			
+					</select>
+			</div><br>
+			
+			<div>
+				<input type="submit" value="Register" >
+				<input type="reset" value="Reset" disabled>
+			</div>
+			
+			</fieldset>
+			
+			<div>
+				<label for="feedback">Feedback: </label><br>
+				<textarea cols="120" rows="5"></textarea>
+			</div><br>
+			
+			
+		
+		</form>
+	
+	</body>
+
+</html>
